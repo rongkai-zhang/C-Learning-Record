@@ -1,0 +1,82 @@
+目的：
+    借助github托管项目
+基本概念：
+    仓库（Repository）
+    仓库用来存放项目代码，每个项目对应一个仓库，多个开源项目有多个仓库
+
+收藏（Star）
+    收藏项目，便于下次查看
+辅助克隆项目（Fork）
+    张三/test仓库         李四/test仓库
+                            fork from 张三/test仓库
+    匚fork                      匚fork 
+    脚下留心：该fork的项目是独立存在的
+发起请求（pull request）
+    李四克隆张三的项目，李四修改后不影响张三    
+    李四修改完之后想要张三更新项目就会有   pull request
+    张三看了李四的请求看了看李四修改的还不错  感觉不错->合并到原仓库中
+关注（Watch）
+    关注项目，当项目更新可以接受到通知
+事物卡片 （issue）
+    发现代码bug，DansGuardian目前没有成型代码，需要讨论时候用
+官方网站  ： github.com
+
+
+1.设置用户名
+git config --global user.name 'rongkai-zhang'
+
+2.设置用户名邮箱
+git config --global user.email '1508839152@qq.com'
+
+脚下留心： 该设置在 github 仓库主页显示谁提交了该文件
+
+初始化一下Git仓库
+    1.创建文件夹
+    右键创建   或者黑框框  mkdir test
+
+    2.在文件内初始化git（创建git仓库）
+    cd test （相当于打开test文件夹）
+    git init （创建一个隐藏文件.git   用来存储仓库信息）
+向仓库添加文件
+    touch a1.cpp  (创建文件)
+    git status (查看状态)
+    git add a1.cpp(吧a1.cpp添加到暂存区)
+    git commit -m 'add a1.cpp'(把a1.cpp从暂存区提交到仓库)
+修改仓库文件
+    vi a1.cpp
+www.itcast.cn      pap     视频下载   Linux
+    ls
+    vi.a1.cpp    添加东西
+    编辑完按exc退出编辑模式   :wq  保存
+    cat a1.cpp 查看文件内容  
+    git add a1.cpp添加到暂存区
+    git commit -m "描述随便写"
+删除仓库文件
+    rm -rf a1.cpp    删除文件 // -r 删除一个目录或文件   -f强制删除
+    git rm a1.cpp       从Git中删除文件
+    git commit -m '描述随便写'   提交操作
+
+
+Git克隆操作
+    目的：将远程仓库（github对应的项目）复制到本地
+
+    代码
+    git clone 仓库地址
+    仓库地址由来  code 复制地址
+
+往github远程仓库提交代码
+    touch a2.cpp  创建文件 
+    git add a2.cpp 添加到暂存区
+    git commit -m "描述随便写"   添加到本地仓库
+    git push  添加到远程仓库
+
+
+GitHub Pages 搭建网站
+访问
+    https://用户名.github.io
+
+搭建步骤
+    1 创建个人站点    -> 新建仓库（仓库名必须是   用户名.github.io）
+    2.在仓库下新建 index.html
+    脚下留心：  github pages 只支持静态网页
+                仓库里面只能是.html文件
