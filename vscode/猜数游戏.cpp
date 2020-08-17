@@ -11,7 +11,7 @@ int main()
     { 
         cin>> val;
         if (val >num )
-        {
+        {  
             cout <<"²Â²â¹ı´ó"<<endl;
         }
         else if(val<num)
