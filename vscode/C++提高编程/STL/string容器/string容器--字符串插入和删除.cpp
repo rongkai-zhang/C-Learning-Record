@@ -8,7 +8,7 @@ void test01()
     string str = "hello";
 
     //插入
-    str.insert(1, "111"); //从那个位置  插入什么东西
+    str.insert(1, "111"); //从哪个位置  插入什么东西
     //h111ello
     cout << "str = " << str << endl;
 
