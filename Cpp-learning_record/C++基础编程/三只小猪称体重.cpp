@@ -1,4 +1,4 @@
- //  ·Ö±ğÊäÈëÈıÖ»Ğ¡ÖíµÄÖØÁ¿ ÅĞ¶ÏË­×îÖØ
+ //  åˆ†åˆ«è¾“å…¥ä¸‰åªå°çŒªçš„é‡é‡ åˆ¤æ–­è°æœ€é‡
 #include <iostream>
 using namespace std;
 int main ()
@@ -6,40 +6,40 @@ int main ()
 	int num1 = 0;
 	int num2 = 0;
 	int num3 = 0;
-	cout <<"ÇëÊäÈëĞ¡Öí1µÄÌåÖØ"<<endl;
+	cout <<"è¯·è¾“å…¥å°çŒª1çš„ä½“é‡"<<endl;
 	cin>>num1; 
 	
-	cout <<"ÇëÊäÈëĞ¡Öí2µÄÌåÖØ"<<endl;
+	cout <<"è¯·è¾“å…¥å°çŒª2çš„ä½“é‡"<<endl;
 	cin>>num2; 
 	
-	cout <<"ÇëÊäÈëĞ¡Öí3µÄÌåÖØ"<<endl;
+	cout <<"è¯·è¾“å…¥å°çŒª3çš„ä½“é‡"<<endl;
 	cin>>num3; 
 	
-	cout <<"Ğ¡Öí1µÄÌåÖØÎª"<<num1<<endl;
-	cout <<"Ğ¡Öí2µÄÌåÖØÎª"<<num2<<endl;
-	cout <<"Ğ¡Öí3µÄÌåÖØÎª"<<num3<<endl;
+	cout <<"å°çŒª1çš„ä½“é‡ä¸º"<<num1<<endl;
+	cout <<"å°çŒª2çš„ä½“é‡ä¸º"<<num2<<endl;
+	cout <<"å°çŒª3çš„ä½“é‡ä¸º"<<num3<<endl;
 	
-	if(num1>num2) //1±È2ÖØ 
+	if(num1>num2) //1æ¯”2é‡ 
 	{
-		if(num1>num3)//1±È3ÖØ 
+		if(num1>num3)//1æ¯”3é‡ 
 		{
-			cout<<"Ğ¡Öí1×îÖØ"<<endl;
-		}
-		else //3±È1ÖØ
+			cout<<"å°çŒª1æœ€é‡"<<endl;
+		}12
+		else //3æ¯”1é‡
 		{
-			cout <<"Ğ¡Öí3×îÖØ"<<endl;
+			cout <<"å°çŒª3æœ€é‡"<<endl;
 		 } 
 	}
-	else //2±È1ÖØ
+	else //2æ¯”1é‡
 	{
-		if(num2>num3)//2±È3ÖØ 
+		if(num2>num3)//2æ¯”3é‡ 
 		{
-			cout<<"Ğ¡Öí2×îÖØ"<<endl;
+			cout<<"å°çŒª2æœ€é‡"<<endl;
 			 
 		}
-		else//3±È2ÖØ
+		else//3æ¯”2é‡
 		{
-			cout<<"Ğ¡Öí3×îÖØ"<<endl; 
+			cout<<"å°çŒª3æœ€é‡"<<endl; 
 		 } 
 	} 
 

@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     int a[9] = {1, 5, 4, 8, 9, 6, 3, 2, 7};
-    //√∞≈›≈≈–Ú¥”–°µΩ¥Û≈≈–Ú
-    cout << "≈≈–Ú«∞" << endl;
+    //ÂÜíÊ≥°ÊéíÂ∫è‰ªéÂ∞èÂà∞Â§ßÊéíÂ∫è
+    cout << "ÊéíÂ∫èÂâç" << endl;
     for (int i = 0; i < 9; i++)
     {
         cout << a[i] << "  ";
@@ -23,7 +23,7 @@ int main()
             }
         }
     }
-    cout << "≈≈–Ú∫Û" << endl;
+    cout << "ÊéíÂ∫èÂêé" << endl;
     for (int i = 0; i < 9; i++)
     {
         cout << a[i] << "  ";
